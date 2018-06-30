@@ -3,6 +3,6 @@ function justInvoke(fn){
   return fn();
 }
 
-function setThisWithCall(age){
-  let result = age
+function setThisWithCall(fn, value, argument){
+  return fn.call(value, argument)
 }
