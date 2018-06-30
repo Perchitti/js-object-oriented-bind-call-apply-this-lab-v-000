@@ -1,9 +1,6 @@
 //Your code here
-class returnsThisAndArgs {
-  constant(name, age){
+function returnsThisAndArgs (name, age) {
     this.name = name
     this.age = age
-  }
 
-  
 }
