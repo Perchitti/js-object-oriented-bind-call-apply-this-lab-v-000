@@ -7,4 +7,6 @@ function setThisWithCall(fn, value, arg){
   return fn.call(value, arg)
 }
 
-function setThisWithApply(fn, value, args)
+function setThisWithApply(fn, value, args){
+  return fn.apply(value, args)
+}
